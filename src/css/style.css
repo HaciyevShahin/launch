@@ -83,21 +83,47 @@ header {
             }
         }
     }
+
+}
+
+.text {
+    color: rgb(57, 116, 255);
 }
 
 .btn {
     transition: all .5s;
+    padding: 5px 25px;
+    border: 2px solid rgba(41, 121, 250, 0.1);
+    border-radius: 30px;
+    font-size: 15px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+
+    &:hover {
+        border-color: #fff;
+        background-color: #407BFF;
+
+        &:hover {
+            color: rgb(0, 0, 0);
+        }
+    }
+}
+
+.btn1 {
+    transition: all .5s;
     padding: 5px 22px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(41, 121, 250, 0.1);
     border-radius: 30px;
     font-size: 14px;
     display: inline-block;
     color: rgba(0, 0, 0, 0.5);
 
     &:hover {
-        border-color: black;
+        border-color: rgb(0, 0, 0);
+
     }
 }
+
 
 .btn-blue {
     padding: 5px 22px;
@@ -113,8 +139,17 @@ header {
         transition: all .5s;
     }
 
+    main {
+        section {
+            overflow-x: hidden;
+        }
+    }
+
     #intro {
         overflow-x: hidden;
+        padding-bottom: 150px;
+
+
         h1 {
             font-size: 70px;
             font-weight: 700;
@@ -137,14 +172,19 @@ header {
         }
     }
 
-    
+
 }
+
 .dots {
-    position:absolute;
+    position: absolute;
+    z-index: -1;
     top: 0;
     right: 0;
     width: 304px;
     height: 264px;
     transform: translateX(60%);
-    z-index: -1;
+}
+
+.service {
+    padding-bottom: 150px;
 }
