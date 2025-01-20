@@ -1,8 +1,8 @@
 .container {
-    width: 90%;
+    width: 80%;
     max-width: 1140px;
     margin-inline: auto;
-    /* position: relative; */
+    
 }
 
 .row {
@@ -89,4 +89,8 @@
 
 .justify-content-evenly {
     justify-content: space-evenly;
+}
+
+.relative{
+    position: relative;
 }
