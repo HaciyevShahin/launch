@@ -4,7 +4,9 @@ body {
     font-family: "Nunito", serif;
     color: #939393;
     line-height: 1.6;
-    /* background-color: rgba(107, 106, 106, 0.8); */
+    background-color: rgba(230, 190, 190, 0.8);
+    overflow-x: hidden;
+
 }
 
 h1,
@@ -146,7 +148,7 @@ header {
     }
 
     #intro {
-        overflow-x: hidden;
+        gap: 5px;
         padding-bottom: 150px;
 
 
@@ -156,6 +158,9 @@ header {
             line-height: 1;
             margin-bottom: 30px;
         }
+
+
+
 
         [class^='btn'] {
             transition: all .5s;
@@ -193,7 +198,10 @@ header {
     display: block;
     margin-bottom: 10px;
 }
-.title {display: flex;}
+
+.title {
+    display: flex;
+}
 
 .client-image {
     width: 50px;
@@ -209,4 +217,29 @@ header {
 
 .flex {
     display: flex;
+    gap: 7px;
+    
+}
+
+.play-button {
+    
+    position: absolute;
+    top: 48rem;
+    left: 52rem;
+    width: 50px;
+    height: 50px;
+    background: #e3e3e3ac;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
+    
+
+    &:hover {
+        background: #407BFF;
+        transition: all .5s;
+    }
+
+
 }
