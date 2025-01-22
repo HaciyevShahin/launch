@@ -220,11 +220,11 @@ header {
 .flex {
     display: flex;
     gap: 7px;
-    
+
 }
 
 .play-button {
-    
+
     position: absolute;
     top: 48rem;
     left: 52rem;
@@ -236,7 +236,7 @@ header {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -40%);
     -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
-    
+
 
     &:hover {
         background: #407BFF;
@@ -246,14 +246,15 @@ header {
 
 }
 
-.projects{
+.projects {
     display: flex;
     background-color: rgb(105, 104, 104);
 
-    .leftimg{
+    .leftimg {
         width: 50%;
 
-        img{
+        img {
             width: 100%;
+        }
     }
 }
