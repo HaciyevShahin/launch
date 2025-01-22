@@ -18,6 +18,7 @@ h6 {
     color: black;
 }
 
+
 p {
     margin-bottom: 1rem;
 }
@@ -180,6 +181,7 @@ header {
 
 }
 
+
 .dots {
     position: absolute;
     z-index: -1;
@@ -242,4 +244,16 @@ header {
     }
 
 
+}
+
+.projects{
+    display: flex;
+    background-color: rgb(105, 104, 104);
+
+    .leftimg{
+        width: 50%;
+
+        img{
+            width: 100%;
+    }
 }
