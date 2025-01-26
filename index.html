@@ -4,10 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Document</title>
+
+
+
+    <!-- FOntawsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- AOS css link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- Css file links -->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/layout.css">
     <link rel="stylesheet" href="./src/css/style.css">
@@ -26,78 +38,80 @@
                             <a href="">
                                 Launch<span>.</span>
                             </a>
-
                         </h2>
                     </div>
                     <ul class="menu flex">
                         <li>
-                            <a href="">Home</a>
+                            <a href="">
+                                Home
+                            </a>
                         </li>
                         <li>
-
-                            <a href="">Dropdown
+                            <a href="">
+                                Dropdown
                             </a>
                             <ul class="submenu">
                                 <li>
-
                                     <a href="">Testimonials</a>
                                 </li>
                                 <li>
-
                                     <a href="">Menu Two</a>
                                 </li>
                                 <li>
-
-                                    <a href="">Menu There
-
-                                    </a>
+                                    <a href="">Menu Three</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-
-                            <a href="">Features</a>
+                            <a href="">
+                                Features
+                            </a>
                         </li>
                         <li>
-
-                            <a href="">Pricing</a>
+                            <a href="">
+                                Pricing
+                            </a>
                         </li>
                         <li>
-
-                            <a href="">About</a>
+                            <a href="">
+                                About
+                            </a>
                         </li>
                         <li>
-
-                            <a href="">Contact</a>
+                            <a href="">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-3" text-right>
-                    <a href="" class="btn1">Sig in</a>
+                <div class="col-3 text-right">
+                    <a href="" class="btn">Sign in</a>
                     <a href="" class="btn-blue">Register</a>
                 </div>
             </div>
         </div>
     </header>
 
-
     <main>
         <section id="intro">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-5">
-                        <h1>Promote Your Products by Colorlib</h1>
-                        <p>Another cool free html css template by <a href="#" target="_blank"><b class="text"> Colorlib
-                                </b></a> Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
-                            coast</p>
+                        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Promote Your Products by
+                            Colorlib</h1>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Another cool free html css
+                            template by Colorlib Far far away, behind the word mountains, far
+                            from the countries Vokalia and Consonantia, there live the blind texts. Separated they live
+                            in Bookmarksgrove right at the coast</p>
 
-                        <a href="http://" class="btn-blue">SEE FEATURES</a>
-                        <a href="http://" class="btn">PRICING</a>
-
+                        <a href="http://" class="btn-blue" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-mirror="true">SEE FEATURES</a>
+                        <a href="http://" class="btn" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-mirror="true">PRICING</a>
                     </div>
                     <div class="col-7 relative">
-                        <img src="./pages/images/market-launch-pana.svg" alt="">
+                        <img src="./pages/images/market-launch-pana.svg" alt="" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-mirror="true">
                         <img src="https://preview.colorlib.com/theme/launch/images/dots.png.webp" class="dots">
                     </div>
                 </div>
@@ -107,72 +121,255 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        <span>Digital Services</span>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <h2>Selling Digital Services</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there
-                                live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
+                        <span class="subtitle" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-mirror="true">Digital Services</span>
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Selling Digital Services
+                        </h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Far far away, behind the
+                            word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
 
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i> There live the blind texts</li>
-                                <li><i class="fa-solid fa-check"></i> Far far away behind the word</li>
+                        <ul>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                                <i class="fa-solid fa-check"></i>
+                                There live the blind texts
+                            </li>
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                                <i class="fa-solid fa-check"></i>
+                                Far far away behind the word
+                            </li>
+                        </ul>
+                        <p class="feedback-desc" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                            “Separated they live in Bookmarksgrove right at the coast of the
+                            Semantics,
+                            a large language
+                            ocean. A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia. ”</p>
 
-                            </ul>
-                            <p class="feedback-desc"> “Separated they live in Bookmarksgrove right at the coast of
-                                the Semantics,
-                                a large language ocean. A small river named Duden flows by their place and supplies
-                                it with the
-                                necessary regelialia.</p>
+                        <div class="client-card flex">
+                            <img src="https://preview.colorlib.com/theme/launch/images/person_1.jpg" alt="client İmage"
+                                data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+
                             <div>
-                                <div class="client-image">
-                                    <img src="https://preview.colorlib.com/theme/launch/images/person_1.jpg">
-                                </div>
-                                <div>
-                                    <h5>James Anderson</h5>
-                                    <p>Facebook, Product Lead</p>
-                                </div>
+                                <h5 data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">James Anderson
+                                </h5>
+                                <p data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Facebook, Product
+                                    Lead</p>
                             </div>
-
                         </div>
+                    </div>
+                    <div class="col-7">
                         <div class="service-big-image">
-                            <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
+                            <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"></a>
+                            <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt=""
+                                data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                            <span>
+                                <i class=" fa-solid fa-play">
 
+                                </i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="leftimg">
 
-                            <a href="https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s">
-                                <span class="wrap-icon-play">
-                                    <svg class="play-button" width="3em" height="2em" viewBox="0 0 16 16"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z">
-                                        </path>
-                                    </svg>
-                                </span>
-                            </a>
+                <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
+            </div>
 
+            <div class="">
+
+            </div>
+
+            
+
+        </section>
+        <section id="service-items">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z">
+                                    </path>
+                                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                                </svg>
+                            </div>
+                            <h3>Grow Your Business</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150"
+                        data-aos-mirror="true">
+                        <div class="service-card">
+                            <div class="service-icon icon-yellow">
+                                <svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>Grow Your Business</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250"
+                        data-aos-mirror="true">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z">
+                                    </path>
+                                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                                </svg>
+                            </div>
+                            <h3>Grow Your Business</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350"
+                        data-aos-mirror="true">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z">
+                                    </path>
+                                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                                </svg>
+                            </div>
+                            <h3>Grow Your Business</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Pricing</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true"> Pricing for everyone.
+                            Choose your plan now!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                        <div class="pricing-card">
+                            <div class="text-center">
+                                <h3>Free</h3>
+                                <p>
+                                    <sup>$</sup>0
+                                </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    There live the blind texts
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Far far away behind the word
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Far from the countries Vokalia and Consonantia
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#" class="btn">Get Started</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true"
+                        data-aos-delay="150">
+                        <div class="pricing-card active">
+                            <div class="text-center">
+                                <h3>Free</h3>
+                                <p>
+                                    <sup>$</sup>0
+                                </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    There live the blind texts
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Far far away behind the word
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Far from the countries Vokalia and Consonantia
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-blue">Get Started</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true"
+                        data-aos-delay="250">
+                        <div class="pricing-card">
+                            <div class="text-center">
+                                <h3>Free</h3>
+                                <p>
+                                    <sup>$</sup>0
+                                </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    There live the blind texts
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Far far away behind the word
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Far from the countries Vokalia and Consonantia
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#" class="btn">Get Started</a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <section id="projects">
-        <div class="leftimg">
-            <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
-        </div>
-
-         <div class="">
-
-            </div>
-
-        </div>
+    <footer></footer>
 
 
 
-    </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
